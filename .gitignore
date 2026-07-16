@@ -1,0 +1,11 @@
+# Anahtar dosyalarını Git'ten uzak tut
+keys/*.pem
+keys/*.der
+keys/*.key
+!keys/.gitkeep
+
+# Maven ve gereksiz kalıntıları engelle
+target/
+*.class
+PKCS#8
+X.509
